@@ -26,7 +26,6 @@ common common-opts
     NamedFieldPuns
     StrictData
     GADTs
-    NoImplicitPrelude
     ImportQualifiedPost
     TypeApplications
   ghc-options:
@@ -60,6 +59,9 @@ common common-opts
     , text
     , foldl
     , safe-exceptions
+    -- my stuff
+    , Frames
+    , vinyl
 
   default-language: Haskell2010
 
